@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocks</title>
+</head>
+<body>
+    <div>
+        <h1>This is the first heading</h1>
+        <p>This is a paragraph.</p>
+        <h2>This is the second heading</h2>
+        <h3>This is the third heading</h3>
+    </div>
+    <div>
+        <h4>This is the fourth heading</h4>
+        <address>
+            Visit us at:<br>
+            DEEBUGINSTITUTE@gmail.com<br>
+            Akpakpava,<br>
+            Edo state,Nigeria.
+        </address>
+    </div>
+</body>
+</html>
