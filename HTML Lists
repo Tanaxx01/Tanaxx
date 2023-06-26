@@ -1,0 +1,24 @@
+<!DOCTYE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <ol type="1"> <!--This has different types e.g numbers,letters and roman numerals-->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Candy</li>
+    </ol>
+    <ul style="list-style-type: circle;"> <!--This has 4 many types e.g disc, square, circle, and none-->
+        <li>Ologun</li>
+        <li>Etana</li>
+        <li>Miracle</li>
+    </ul>
+    <dl> <!--This is a descriptive list-->
+        <dt>Money</dt> <!--This is the description title-->
+        <dd>This is something you attain mainly by working or by inheritance</dd><!--This is the detail of the title-->
+    </dl>
+</body>
+</html>
