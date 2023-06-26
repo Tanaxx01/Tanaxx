@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1 style="text-decoration: underline;">HTML Forms</h1>
+    <form>
+        <label>First name:</label><br>
+        <input type="text"><br>
+        <label>Last name:</label><br>
+        <input type="text"><br>
+        <input type="submit">
+    </form>
+
+    <form>
+        <h3>Pick your poison(s)</h3>
+        <input type="checkbox">
+        <label>Strawberry</label><br>
+        <input type="checkbox">
+        <label> Apple </label><br>
+        <input type="checkbox">
+        <label> Coconut </label>
+    </form>
+
+    <form>
+        <h3>Are you an introvert?</h3>
+        <input type="radio" name="select-one">
+        <label>Yes</label>
+        <input type="radio" name="select-one">
+        <label>No</label><br><br>
+    </form>
+
+    <form>
+        <label for="age">select age range:</label>
+        <select id="age">
+            <option value="0-15">0-15yrs</option>
+            <option value="16-25">16-25yrs</option>
+            <option value="26-40">26-40yrs</option>
+        </select>
+    </form>
+</body>
+</html>
