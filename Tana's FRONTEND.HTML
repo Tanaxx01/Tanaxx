@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="duplicatestyle.css">
+    <title>Deebug survey</title>
+</head>
+<body>
+    <h1>Deebug Institute Survey</h1>
+    <div class="container">
+        <p>Let us know how to improve things around here</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name" class="adjustment"><br>
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your Email" class="adjustment"><br>
+
+            <label for="Depts">Department</label>
+            <select class="adjustment">
+                <option value="CPE">Computer Engineering</option>
+                <option value="CSC">Computer Science</option>
+                <option value="Others">Others</option>
+            </select><br>
+
+            <label for="">Which option best describes your current role?</label>
+            <select disabled>
+                <option value="">Student</option>
+            </select><br>
+
+            <div class="recon">
+                <label for="">How likely is it that you would recommend Deebug Institute to a friend</label>
+                <div>
+                    <input type="radio" name="recommend">Definitely<br>
+                    <input type="radio" name="recommend" id=""> Maybe<br>
+                    <input type="radio" name="recommend" id=""> Not sure<br>
+                </div>
+                
+            </div>
+             
+            <label for="">What course are you currently taking?</label>
+            <select disabled>
+                <option value="">Select an option</option>
+            </select><br>
+
+            <div class="recon">
+                <label for="">Things that should be improved in the future <span id="text">(Check those that apply)</span></label>
+                <div>
+                    <input type="checkbox"> Time-table<br>
+                    <input type="checkbox"> Assignments<br>
+                    <input type="checkbox"> Heurekka
+                    <br>
+                </div>
+            </div>
+            
+        </form>
+        <input type="submit" class="submit-button">
+    </div>
+</body>
+</html>
